@@ -3,10 +3,11 @@
     height: 80px;
     padding: 0px 15px;
     font-size: 18px; 
+    
 }
 .navbar{   
     background-color:#113448;
-    padding-top: 30px;    
+    padding-top: 10px;    
 }
 body {
     font-family: "Montserrat", sans-serif;
@@ -20,4 +21,19 @@ body {
     background-color: #113448;
 }
 
-.carousel-inner > .item  {min-height: 600px; background-size: cover}
+.carousel-inner > .item  > .div  {
+    height: 100%!important; 
+    width:100%!important; 
+    margin:0; padding: 0;
+    
+}
+
+.carousel-inner > .item  {
+height: 100%!important;  
+}
+.carousel-inner > .carousel-caption {
+
+    height: 100%!important; 
+    width:100%!important; 
+    margin:0; padding:100pc;
+}
