@@ -1,46 +1,36 @@
-
-.navbar-brand {  
-    height: 80px;
-    padding: 0px 15px;
-    font-size: 18px; 
-    
+.navbar-brand {
+  height: 80px;
+  padding: 0px 15px;
+  font-size: 18px;
 }
-.navbar{   
-    background-color:#113448;
-    padding-top: 10px;    
+.navbar {
+  background-color: #113448;
+  padding-top: 10px;
 }
 body {
-    font-family: "Montserrat", sans-serif;
-    font-size: 18px;
-    line-height: 1.42857143;
-    
-    background-color:#113448;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  line-height: 1.42857143;
+
+  background-color: #113448;
 }
-.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
-   
-    background-color: #113448;
-}
-
-.carousel-inner > .item  > .div  {
-    height: 100%!important; 
-    width:  100%!important; 
-
-   
-
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .active > a:hover {
+  background-color: #113448;
 }
 
-.carousel-inner > .item  {
-height: 100%!important;  
-min-height: 600px;max-height: cover;
+.carousel-inner > .item > .div {
+  height: 100% !important;
+  width: 100% !important;
+}
+
+.carousel-inner > .item {
+  height: 100% !important;
+  min-height: 600px;
+  
 }
 .carousel-inner > .carousel-caption {
-
-    height: 100%!important; 
-    width:  100%!important; 
-    
-
+  height: 100% !important;
+  width: 100% !important;
 }
-
-
-  
-
