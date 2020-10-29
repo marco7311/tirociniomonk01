@@ -37,6 +37,10 @@ body {
   background-image: url(image03.jpg);
 }
 
- 
+ .col-md-3 {
+   padding-right: 0px; padding-left: 0px;
 
-
+  }
+ .spaziotop {
+   padding:60px 0;
+}
