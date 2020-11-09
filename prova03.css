@@ -28,6 +28,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   min-height: 100vh;
+  
 }
 
 .carousel-inner > .item:nth-child(2) {
@@ -37,7 +38,7 @@ body {
   background-image: url(image03.jpg);
 }
 
- .col-md-3 {
+ .col-md-4 {
    padding-right: 0px; padding-left: 0px;
 
   }

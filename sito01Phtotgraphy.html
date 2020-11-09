@@ -86,66 +86,52 @@
   </div>
   <div class="row spaziotop" id="GALLERY">
 
-    <figure class="col-md-3">
+    <figure class="col-md-4">
       <a href="gallery01/gallery01.html">
         <img alt="picture" src="image01.jpg" class="img-responsive" />
       </a>
     </figure>
-    <figure class="col-md-3">
+    <figure class="col-md-4">
       <a href="image02.jpg">
         <img alt="picture" src="image02.jpg" class="img-responsive" />
       </a>
     </figure>
-    <figure class="col-md-3">
+    <figure class="col-md-4">
       <a href="image03.jpg">
         <img alt="picture" src="image02.jpg" class="img-responsive" />
       </a>
     </figure>
-    <figure class="col-md-3">
+    <figure class="col-md-4">
       <a href="image03.jpg">
         <img alt="picture" src="image03.jpg" class="img-responsive" />
       </a>
     </figure>
-    <figure class="col-md-3">
+    <figure class="col-md-4">
       <a href="gallery01/gallery01.html">
         <img alt="picture" src="image01.jpg" class="img-responsive" />
       </a>
     </figure>
-    <figure class="col-md-3">
+    <figure class="col-md-4">
       <a href="image02.jpg">
         <img alt="picture" src="image02.jpg" class="img-responsive" />
       </a>
     </figure>
-    <figure class="col-md-3">
+    <figure class="col-md-4">
       <a href="image03.jpg">
         <img alt="picture" src="image02.jpg" class="img-responsive" />
       </a>
     </figure>
-    <figure class="col-md-3">
+    <figure class="col-md-4">
       <a href="image03.jpg">
         <img alt="picture" src="image03.jpg" class="img-responsive" />
       </a>
     </figure>
-    <figure class="col-md-3">
+    <figure class="col-md-4">
       <a href="gallery01/gallery01.html">
         <img alt="picture" src="image01.jpg" class="img-responsive" />
       </a>
     </figure>
-    <figure class="col-md-3">
-      <a href="image02.jpg">
-        <img alt="picture" src="image02.jpg" class="img-responsive" />
-      </a>
-    </figure>
-    <figure class="col-md-3">
-      <a href="image03.jpg">
-        <img alt="picture" src="image02.jpg" class="img-responsive" />
-      </a>
-    </figure>
-    <figure class="col-md-3">
-      <a href="image03.jpg">
-        <img alt="picture" src="image03.jpg" class="img-responsive" />
-      </a>
-    </figure>
+   
   </div>
 
 
@@ -166,7 +152,22 @@
   <script src="bootstrap.min.js"></script>
   <script>
     $('body').scrollspy({ target: '#navbar-example' })
+    $(".navbar-collapse").collapse('hide');
+    $(".navbar-collapse ul li a(href^='#']").on('click',function(e) {
+
+    target= this.hash;
+    e.preventDefault();
+    $('html,body'.animation {
+      scrolltop : $(this.hash).offset().top
+    }, 600, function(){
+      window.location.hash = target;
+     });
+    });
+   
+    
+
   </script>
+
 </body>
 
 
