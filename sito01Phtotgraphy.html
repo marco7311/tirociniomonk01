@@ -87,7 +87,7 @@
   <div class="row spaziotop" id="GALLERY">
 
     <figure class="col-md-4">
-      <a href="gallery01/gallery01.html">
+      <a href="gallery01/galleryone.html">
         <img alt="picture" src="image01.jpg" class="img-responsive" />
       </a>
     </figure>
@@ -152,7 +152,7 @@
   <script src="bootstrap.min.js"></script>
   <script>
     $('body').scrollspy({ target: '#navbar-example' })
-    $(".navbar-collapse").collapse('hide');
+     $(".navbar-collapse").collapse('hide');
     $(".navbar-collapse ul li a(href^='#']").on('click',function(e) {
 
     target= this.hash;
@@ -161,9 +161,9 @@
       scrolltop : $(this.hash).offset().top
     }, 600, function(){
       window.location.hash = target;
+     
      });
     });
-   
     
 
   </script>

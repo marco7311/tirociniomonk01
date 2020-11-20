@@ -45,11 +45,22 @@ body {
  .spaziotop {
    padding:60px 0;
 }
+.container {
+  max-width: 98%;
+  margin: 0 auto;
+}
 
-  .carousel-multi-item-2 .col-md-3 {
-  float: left;
-  width: 25%;
-  max-width: 100%; } }
-  
-  .carousel-multi-item-2 .card img {
-  border-radius: 2px; }
+.image-container {
+  background-color: #ffffff;
+  padding: 10px;
+}
+
+.main-image-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.thumbnail-image-container img {
+  max-width: 100%;
+  height: auto;
+}

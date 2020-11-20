@@ -1,0 +1,26 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    line-height: 1.42857143;
+  
+    background-color: #113448;
+  }
+  .container {
+    max-width: 98%;
+    margin: 0 auto;
+  }
+  
+  .image-container {
+    background-color: #ffffff;
+    padding: 10px;
+  }
+  
+  .main-image-container img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .thumbnail-image-container img {
+    max-width: 100%;
+    height: auto;
+  }
